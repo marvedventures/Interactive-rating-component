@@ -43,7 +43,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://tailwindcss.com/) - For styles
+- [TailwindCSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
