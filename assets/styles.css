@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Overpass', sans-serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto mt-52 w-[375px] flex-col gap-6 rounded-xl border border-none bg-gradient-to-br from-dark-blue to-very-dark-blue p-6;
+  }
+  .circle {
+    @apply flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-dark-blue text-xs hover:bg-orange focus:bg-light-gray focus:outline-none;
+  }
+  .header {
+    @apply text-2xl font-bold;
+  }
+
+  .btn {
+    @apply rounded-3xl bg-orange py-3 font-bold uppercase tracking-widest hover:bg-white hover:text-orange;
+  }
+
+  .active {
+    display: flex;
+  }
+}
